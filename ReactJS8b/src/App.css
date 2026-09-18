@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 30px;
+  text-align: center;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+}
+
+.navbar {
+  margin: 20px;
+}
+
+.navbar a {
+  margin: 10px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar a.active {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  margin: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
